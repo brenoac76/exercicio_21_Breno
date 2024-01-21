@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman-Dark Night</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>    
+
+    <div class="shows">
+        <ul class="shows__tabs">
+            
+            <nav>
+                <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                    HOME
+                </button>
+                <button data-tab-button="populares" class="shows__tabs__button">
+                    NOTÍCIAS
+                </button>
+                <button data-tab-button="star_plus" class="shows__tabs__button">
+                    TRAILER
+                </button>
+                <button data-tab-button="star_plus2" class="shows__tabs__button">
+                    CURIOSIDADES
+                </button>
+            </nav>
+            
+    </div>
+    
+    <section>
+        <div data-tab-id="em_breve" class="shows__list shows__list--is-active">
+        <h1 class="breve_titulo">Home</h1>
+        <p class="texto shows__list__item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut asperiores sequi quo a ut. A accusamus explicabo assumenda nobis soluta reprehenderit, ipsa expedita ducimus maiores dolor modi tempora optio deleniti.
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel commodi voluptate laudantium quae et vitae, omnis esse minima, dolore sed atque magnam. Libero dolorem assumenda incidunt nemo ipsum aspernatur?
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque sed blanditiis quod saepe unde ab ex molestias vero explicabo dolorum eaque animi dignissimos assumenda amet distinctio, ea voluptatem aut!
+
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore quaerat rem consequatur dolore impedit corrupti distinctio recusandae explicabo veniam enim, excepturi, laboriosam debitis praesentium sequi. Repellat eligendi aliquid aliquam iusto?
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nihil sit veritatis voluptatum officia quam deleniti repellendus. Sed consequatur quasi pariatur, temporibus facere minima illum dignissimos dicta deleniti, facilis porro.
+        </p>
+
+        </div>
+        <div data-tab-id="populares" class="shows__list">
+            <h1 class="breve_titulo">Notícias</h1>
+            <p class="texto shows__list__item">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut asperiores sequi quo a ut. A accusamus explicabo assumenda nobis soluta reprehenderit, ipsa expedita ducimus maiores dolor modi tempora optio deleniti.
+    
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel commodi voluptate laudantium quae et vitae, omnis esse minima, dolore sed atque magnam. Libero dolorem assumenda incidunt nemo ipsum aspernatur?
+
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi corrupti voluptatibus quis in cum, autem sunt quaerat enim ducimus voluptate eveniet accusamus ipsum praesentium quibusdam doloremque nemo laborum perferendis explicabo?
+            </p>
+    
+        </div>
+        <div data-tab-id="star_plus" class="shows__list video">
+            <h1 class="breve_titulo_video">Trailer</h1>
+            <iframe  width="400" height="250" src="https://www.youtube.com/embed/8sB1HTghkg4?transparent=1" title="Batman - O Cavaleiro Das Trevas (2008) Trailer Legendado Pt Br HD [ The Dark Knight HQ ]" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+        <div data-tab-id="star_plus2" class="shows__list">
+            <h1 class="breve_titulo">Curiosidades</h1>
+            <p class="texto shows__list__item">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut asperiores sequi quo a ut. A accusamus explicabo assumenda nobis soluta reprehenderit, ipsa expedita ducimus maiores dolor modi tempora optio deleniti.
+            
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel commodi voluptate laudantium quae et vitae, omnis esse minima, dolore sed atque magnam. Libero dolorem assumenda incidunt nemo ipsum aspernatur?
+            </p>
+            
+    </div>    
+    </section>
+    <footer class="footer">
+        <p class="footer__container">
+            ® 2024 WarnerBros Pictures. Todos os direitos reservados. 
+        </p>
+    </footer>
+    
+    
+    <script src="./src/scripts/main.js"></script>
+    
+</body>
+</html>
